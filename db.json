@@ -1,14 +1,34 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "museums": [
+    {
+      "Name": "Kolomenskoe",
+      "ID": "1",
+      "Colums": [
+        { "Lable": "Название", "Velue": "Коломенское", "Type": "text" },
+        { "Lable": "Город", "Velue": "Москва", "Type": "text" },
+        {
+          "Lable": "Адрес",
+          "Velue": "Москва, Коломенское",
+          "Type": "textarea"
+        },
+        { "Lable": "Телефон", "Velue": "89264932179", "Type": "tel" },
+        {
+          "Lable": "Стоимость",
+          "Velue": "Тут много чего будет написано",
+          "Type": "textarea"
+        },
+        { "Lable": "Выходной", "Velue": "СБ,ВСК", "Type": "text" },
+        {
+          "Lable": "Коментарий",
+          "Velue": "Тут много чего будет написано",
+          "Type": "textarea"
+        },
+        {
+          "Lable": "Коментарий",
+          "Velue": "Тут много чего будет написано",
+          "Type": "textarea"
+        }
+      ]
+    }
+  ]
 }
