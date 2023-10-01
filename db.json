@@ -4,29 +4,43 @@
       "Name": "Kolomenskoe",
       "ID": "1",
       "Colums": [
-        { "Lable": "Название", "Velue": "Коломенское", "Type": "text" },
-        { "Lable": "Город", "Velue": "Москва", "Type": "text" },
+        {
+          "Lable": "Название",
+          "Velue": "Коломенское",
+          "Type": "text",
+          "id": "1"
+        },
+        { "Lable": "Город", "Velue": "Москва", "Type": "text", "id": "2" },
         {
           "Lable": "Адрес",
           "Velue": "Москва, Коломенское",
-          "Type": "textarea"
+          "Type": "textarea",
+          "id": "3"
         },
-        { "Lable": "Телефон", "Velue": "89264932179", "Type": "tel" },
+        {
+          "Lable": "Телефон",
+          "Velue": "89264932179",
+          "Type": "tel",
+          "id": "4"
+        },
         {
           "Lable": "Стоимость",
           "Velue": "Тут много чего будет написано",
-          "Type": "textarea"
+          "Type": "textarea",
+          "id": "5"
         },
-        { "Lable": "Выходной", "Velue": "СБ,ВСК", "Type": "text" },
+        { "Lable": "Выходной", "Velue": "СБ,ВСК", "Type": "text", "id": "6" },
         {
           "Lable": "Коментарий",
           "Velue": "Тут много чего будет написано",
-          "Type": "textarea"
+          "Type": "textarea",
+          "id": "7"
         },
         {
           "Lable": "Коментарий",
           "Velue": "Тут много чего будет написано",
-          "Type": "textarea"
+          "Type": "textarea",
+          "id": "8"
         }
       ]
     }
